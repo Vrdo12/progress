@@ -1,0 +1,34 @@
+[
+  {
+    "type": "bronze",
+    "priceRUB": 99,
+    "priceUSD": 2,
+    "name": "Bronze",
+    "img": "bronze",
+    "url": "bronze"
+  },
+  {
+    "type": "metallic",
+    "priceRUB": 199,
+    "priceUSD": 2,
+    "name": "Metallic",
+    "img": "metallic",
+    "url": "metallic"
+  },
+  {
+    "type": "silver",
+    "priceRUB": 299,
+    "priceUSD": 2,
+    "name": "Silver",
+    "img": "silver",
+    "url": "silver"
+  },
+  {
+    "type": "gold",
+    "priceRUB": 399,
+    "priceUSD": 2,
+    "name": "Gold",
+    "img": "gold",
+    "url": "gold"
+  }
+]

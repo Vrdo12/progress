@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "localStorage": true,
+    "document": true,
+    "window": true,
+    "fetch": false
+  },
+  "rules": {
+    "react/prop-types": "off",
+    "function-paren-newline": "off",
+    "global-require": "off",
+    "no-underscore-dangle": "off",
+    "object-curly-newline": "off",
+    "arrow-parens": "off",
+    "no-unused-vars": "warn",
+    "class-methods-use-this": "off",
+    "react/no-array-index-key": "off",
+    "react/destructuring-assignment": "off"
+  }
+}
