@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+@import '~animate.css/animate.min.css';
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+  background: #f5f5f5;
+  * {
+    font-family: 'Ubuntu', sans-serif;
+  }
+}
+a {
+  text-decoration: none;
+  color: #454545;
+}
+.main-width {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  position: relative;
+  max-width: 1240px;
+}
