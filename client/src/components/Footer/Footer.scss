@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer {
   background: #000000;
   background: -webkit-linear-gradient(to left, #434343, #000000);
@@ -57,3 +58,64 @@ footer {
     }
   }
 }
+=======
+footer {
+  background: #000000;
+  background: -webkit-linear-gradient(to left, #434343, #000000);
+  background: linear-gradient(to left, #434343, #000000);
+  padding: 35px 0;
+  .main-width {
+    .links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        padding: 5px;
+        margin: 0 5px;
+        color: rgba(245, 245, 245, 0.659);
+        font-size: 15px;
+        text-decoration: underline;
+        letter-spacing: 0.2px;
+        transition: all 0.3s;
+        &:first-child {
+          margin-left: 0;
+        }
+        &:hover {
+          color: #fff;
+          transition: all 0.3s;
+        }
+      }
+      .urlLink {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      .socialLinks {
+        a {
+          display: flex;
+          align-items: center;
+          svg {
+            margin-right: 5px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+    .text {
+      margin-top: 10px;
+      padding: 5px;
+      font-size: 13px;
+      color: rgba(245, 245, 245, 0.659);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .main-width {
+      .links {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+>>>>>>> fd06c73ece4f09d1b65208b7b08016a04d896128

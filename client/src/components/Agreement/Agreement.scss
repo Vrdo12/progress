@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .agreement {
   padding: 35px 0;
   .main-width {
@@ -37,3 +38,44 @@
     }
   }
 }
+=======
+.agreement {
+  padding: 35px 0;
+  .main-width {
+    .mainTitle {
+      margin-bottom: 40px;
+      display: flex;
+      justify-content: center;
+      h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #454545;
+        font-size: 16px;
+        border-bottom: 3px solid #93b1f7;
+        padding-bottom: 3px;
+      }
+    }
+    section {
+      color: #454545;
+      h1 {
+        font-size: 16px;
+        color: #93b1f7;
+        margin-top: 10px;
+        margin-bottom: 2.5px;
+        p {
+          padding-left: 15px;
+        }
+      }
+      p {
+        word-break: break-all;
+        padding-left: 15px;
+        font-size: 16px;
+        margin-bottom: 3px;
+        p {
+          padding-left: 15px;
+        }
+      }
+    }
+  }
+}
+>>>>>>> fd06c73ece4f09d1b65208b7b08016a04d896128

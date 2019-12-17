@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @keyframes pulls {
   0% {
     box-shadow: 0 0 0 0 #d1dfff;
@@ -273,3 +274,280 @@
     }
   }
 }
+=======
+@keyframes pulls {
+  0% {
+    box-shadow: 0 0 0 0 #d1dfff;
+  }
+}
+
+.cases_holder {
+  background: #f5f5f5;
+  padding: 20px;
+  .main-width {
+    h1 {
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      text-shadow: 1px 1px #93b1f7, 2px 2px #93b1f7, 3px 3px #93b1f7;
+      margin-bottom: 15px;
+      margin-top: 15px;
+    }
+    ul.ourKeys {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style-type: none;
+      li.item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 235px;
+        cursor: pointer;
+        text-align: center;
+        margin: 10px 15px;
+        box-shadow: 0.3em 0.3em 0 0 #d1dfff, inset 0.3em 0.3em 0 0 #d1dfff;
+        border: 1px solid transparent;
+        transition: all 0.25s;
+        .image {
+          padding: 20px 10px;
+          img {
+            width: 100%;
+          }
+        }
+        .info {
+          padding: 5px;
+          display: flex;
+          flex-direction: column;
+          border-top: 1px solid #d1dfff;
+          color: #6a6a6a;
+          font-weight: bold;
+          background: rgba(209, 223, 255, 0.3);
+          transition: all 0.25s;
+        }
+        &:hover,
+        &:focus {
+          box-shadow: 0 0 0 0 #e0eaf4, inset 25em 15em 0 0 #e0eaf4;
+          border: 1px solid #d1dfff;
+          .info {
+            color: #454545;
+            background: rgba(209, 223, 255, 0.6);
+          }
+        }
+      }
+    }
+    .gameKeysHolder {
+      margin-top: 35px;
+      text-align: center;
+      .alert {
+        background: #ce352c;
+        // width: max-content;
+        position: relative;
+        border-radius: 5px;
+        color: #f5f5f5;
+        margin: 15px auto;
+        padding: 20px;
+        .close {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid #f5f5f5;
+          padding: 1px;
+          border-radius: 50%;
+          cursor: pointer;
+          position: absolute;
+          right: 5px;
+          top: 5px;
+          transition: all 0.3s;
+          svg {
+            font-size: 16px;
+          }
+          &:hover {
+            transition: all 0.3s;
+            background: #f5f5f5;
+            svg {
+              color: #ce352c;
+            }
+          }
+        }
+        .title {
+          font-weight: bold;
+          font-size: 18px;
+        }
+        .text {
+        }
+      }
+      form.search {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        max-width: 300px;
+        margin: 0 auto;
+        .autocomplete {
+          position: relative;
+          border: 1px solid #93b1f7;
+          input {
+            border: 1px solid transparent;
+            background-color: #f9f9f9;
+            padding: 7px;
+            font-size: 14px;
+            outline: none;
+            width: 100%;
+            &::placeholder {
+              color: rgb(184, 184, 184);
+            }
+          }
+
+          .autocomplete-items {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+            /*position the autocomplete items to be the same width as the container:*/
+            top: 100%;
+            left: 0;
+            right: 0;
+            & > div {
+              padding: 10px;
+              cursor: pointer;
+              background-color: #fff;
+              border-bottom: 1px solid #d4d4d4;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: flex-start;
+              p {
+                display: flex;
+                text-align: left;
+              }
+              img {
+                width: 45px;
+                border-radius: 10px;
+                margin-right: 10px;
+              }
+              &:hover {
+                background-color: #e9e9e9;
+              }
+            }
+          }
+          .autocomplete-active {
+            background-color: DodgerBlue !important;
+            color: #ffffff;
+          }
+        }
+      }
+      ul.gameKeys {
+        padding: 15px 0;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        .Tilt {
+          margin: 10px;
+        }
+        .item {
+          cursor: pointer;
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+          height: 100%;
+          width: 210px;
+          transition: all 0.5s;
+          border-radius: 5px;
+          .image {
+            display: flex;
+            width: 210px;
+            height: 230px;
+            img {
+              border-radius: 5px 5px 0 0;
+              width: 100%;
+            }
+          }
+          .info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #ebebeb;
+            border-top: none;
+            text-align: left;
+            border-radius: 0 0 5px 5px;
+            .name {
+              font-weight: 400;
+              font-size: 18px;
+            }
+            .price {
+              font-weight: bold;
+            }
+          }
+          &:hover,
+          &:focus {
+            // transform: translateY(-10px);
+            box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+          }
+        }
+        &::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          background-color: #f5f5f5;
+          border-radius: 10px;
+        }
+
+        &::-webkit-scrollbar {
+          width: 10px;
+          background-color: #f5f5f5;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          border-radius: 10px;
+          background-image: -webkit-gradient(
+            linear,
+            left bottom,
+            left top,
+            color-stop(0.44, rgb(122, 153, 217)),
+            color-stop(0.72, rgb(73, 125, 189)),
+            color-stop(0.86, rgb(28, 58, 148))
+          );
+        }
+      }
+      button.showMore {
+        cursor: pointer;
+        border: 3px solid #93b1f7;
+        padding: 10px 25px;
+        background: #f5f5f5;
+        border-radius: 45px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        transition: all 0.4s;
+        &:hover {
+          background: #93b1f7;
+          color: #fff;
+          transition: all 0.4s;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+    .main-width {
+      h1 {
+        font-size: 30px;
+      }
+      ul.ourKeys {
+      }
+      .gameKeysHolder {
+        .alert {
+          .title {
+            font-size: 15px;
+          }
+          .text {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+>>>>>>> fd06c73ece4f09d1b65208b7b08016a04d896128

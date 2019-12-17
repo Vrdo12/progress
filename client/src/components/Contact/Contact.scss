@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contacts {
   color: #454545;
   padding: 60px;
@@ -26,3 +27,33 @@
     }
   }
 }
+=======
+.contacts {
+  color: #454545;
+  padding: 60px;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+    border-bottom: 3px solid #93b1f7;
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    a {
+      border-bottom: 2px solid #93b1f7;
+      margin-left: 5px;
+      transition: all 0.3s;
+      &:hover {
+        color: #93b1f7;
+        transition: all 0.3s;
+      }
+    }
+    span {
+      color: #93b1f7;
+    }
+  }
+}
+>>>>>>> fd06c73ece4f09d1b65208b7b08016a04d896128
